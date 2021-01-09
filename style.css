@@ -1,0 +1,152 @@
+body{
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#04d9ff;
+    color: white;
+  }
+
+
+/* INDEX GRID*/
+
+.item1 { grid-area: Item1; }
+.item1 :hover{
+
+}
+.item2 { grid-area: Item2; }
+.item3 { grid-area: Item3; }
+.item4 { grid-area: Item4; }
+  .grid-container{
+
+      grid-template-areas:
+    'Item1 Item2'
+    'Item3 Item4';
+      margin-top: 50px;
+      margin-left: 80px;
+      border: 100px;
+      display: grid;
+      grid-row-gap: 50px;
+      grid-column-gap: 50px;
+  }
+  
+  
+  .image-container{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+/* Description page GRID*/
+.image{ grid-area: image; }
+.title{ grid-area: title; }
+.description{ grid-area: description; }
+.links{ grid-area: links; }
+.grid-container2{
+    grid-template-areas:
+    'image image image'
+    'image image image'
+    'image image image'
+    'image image image'
+    'title title title'
+    'description description description'
+    'description description description'
+    'links links links';
+      margin-top: 50px;
+      margin-left: 80px;
+      border: 100px;
+      display: grid;
+      grid-row-gap: 50px;
+      grid-column-gap: 50px;
+  }
+
+/* GRID for echo */
+.Cimage{ grid-area: Cimage;
+  
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+  
+}
+.Ttitle{ grid-area: Ttitle; }
+.desc{ grid-area: desc; }
+.video{ grid-area: video; }
+.newspaper{ grid-area: newspaper;}
+.grid-container3{
+     grid-template-areas:
+     'Cimage Cimage Cimage'
+     'Cimage Cimage Cimage'
+     'Cimage Cimage Cimage'
+     'Cimage Cimage Cimage'
+     'Ttitle Ttitle Ttitle'
+     'video video video'
+     'video video video'
+     'video video video'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper'
+     'newspaper newspaper newspaper';
+      margin-top: 50px ;
+      margin-left: 80px;
+      border: 100px;
+      display: grid;
+      grid-row-gap: 50px;
+      grid-column-gap: 50px;
+}
