@@ -150,3 +150,20 @@ a{
       grid-row-gap: 50px;
       grid-column-gap: 50px;
 }
+
+/* ABOUT ME*/
+.txt{ grid-area: 'txt'}
+.img{ grid-area:'img'}
+.grid-container-about-me{
+  grid-template-areas:
+  'txt img'
+ 
+
+  ;
+    margin-top: 50px;
+    margin-left: 80px;
+    border: 100px;
+    display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
